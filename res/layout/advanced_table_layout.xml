@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/adSearchTableRow0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/newTermTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="@string/advanced_search"
+            android:textColor="@color/dark_brown"
+            android:textSize="17sp"
+            android:textStyle="italic|bold" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/adSearchTableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/adSearchMustEditText"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:ems="10"
+            android:hint="@string/ad_must_contain"
+            android:imeOptions="actionNext"
+            android:inputType="textAutoComplete"
+            android:textSize="16sp"
+            android:textStyle="bold" >
+        </EditText>
+
+        <Button
+            android:id="@+id/mustAddButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/add_button" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/adSearchTableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ScrollView
+            android:id="@+id/adSearchMustScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:layout_weight="1"
+            android:isScrollContainer="false" >
+
+            <TableLayout
+                android:id="@+id/adSearchMustTableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:stretchColumns="*" >
+            </TableLayout>
+        </ScrollView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/adSearchTableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/adSearchNotEditText"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:ems="10"
+            android:hint="@string/ad_not_contain"
+            android:imeOptions="actionNext"
+            android:inputType="textAutoComplete"
+            android:textSize="16sp"
+            android:textStyle="bold" >
+        </EditText>
+
+        <Button
+            android:id="@+id/notAddButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/add_button" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/adSearchTableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ScrollView
+            android:id="@+id/adSearchNotScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:layout_weight="1"
+            android:isScrollContainer="false" >
+
+            <TableLayout
+                android:id="@+id/adSearchNotTableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" >
+            </TableLayout>
+        </ScrollView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/adSearchTableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/adSearchWebSiteEditText"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/ad_website_to_search"
+            android:imeOptions="actionDone"
+            android:inputType="textUri"
+            android:textSize="16sp"
+            android:textStyle="bold" >
+        </EditText>
+
+        <Button
+            android:id="@+id/websiteSetButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="@string/set_button" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/adSearchTableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ScrollView
+            android:id="@+id/adSearchWebsiteScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:layout_weight="1"
+            android:isScrollContainer="false" >
+
+            <TableLayout
+                android:id="@+id/adSearchWebsiteTableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" >
+            </TableLayout>
+        </ScrollView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/adSearchImageCheckBoxRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:layout_weight="1" >
+
+            <CheckBox
+                android:id="@+id/adSearchWebCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/web"
+                android:textColor="@color/dark_brown" />
+
+            <CheckBox
+                android:id="@+id/adSearchVideoCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="120dp"
+                android:text="@string/video"
+                android:textColor="@color/dark_brown" />
+
+            <CheckBox
+                android:id="@+id/adSearchImageCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="230dp"
+                android:text="@string/image"
+                android:textColor="@color/dark_brown" />
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/adSearchMoreTableRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:layout_weight="1" >
+
+            <CheckBox
+                android:id="@+id/adSearchBooksCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="120dp"
+                android:text="@string/books"
+                android:textColor="@color/orange" />
+            <CheckBox
+                android:id="@+id/adSearchBlogsCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="230dp"
+                android:text="@string/blogs"
+                android:textColor="@color/orange" />
+
+            <CheckBox
+                android:id="@+id/adSearchNewsCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/news"
+                android:textColor="@color/orange" />
+
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/adSearchMoreTableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:layout_weight="1" >
+
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/adSearchMoreTableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_span="4"
+            android:layout_weight="1" >
+
+            <CheckBox
+                android:id="@+id/adSearchShoppingCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/shopping"
+                android:textColor="@color/darker_blue" />
+
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/adSearchTableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/adSearchFileTypeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingTop="15dp"
+            android:text="@string/file_type_to_Search"
+            android:textColor="@color/dark_brown"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/adSearchTableRow8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Spinner
+            android:id="@+id/adSearchFileTypeSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/adSearchTableRow8.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:id="@+id/fileTypeCustomTableLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </TableLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/adSearchTableRow9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/adSearchIndexedTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingTop="15dp"
+            android:text="@string/show_results_indexed"
+            android:textColor="@color/dark_brown"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow android:id="@+id/adSearchTableRow10" >
+
+        <Spinner
+            android:id="@+id/adSearchIndexedSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/adSearchTableRow11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/adSearchTableRow12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/adSearchSaveSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_weight="1"
+            android:text="@string/save_Search" />
+    </TableRow>
+
+</TableLayout>

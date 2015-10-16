@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="rights">
+        <item>Any</item>
+        <item>Free to use non-commercially</item>
+        <item>Free to use or share non-commercially</item>
+        <item>Free to use or share commercially</item>
+        <item>Free to use, share or modify non-commercially</item>
+        <item>Free to use, share or modify commercially</item>
+    </string-array>
+
+</resources>

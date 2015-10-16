@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="indexing_time">
+        <item>Default</item>
+        <item>The previous 24 hours</item>
+        <item>The previous 7 days</item>
+        <item>The previous month</item>
+        <item>The previous year</item>
+        <item>Custom (The previous n  months)</item>
+    </string-array>
+
+</resources>

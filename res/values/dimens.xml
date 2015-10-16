@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <color name="dark_brown">#3b0000</color>
+    <color name="dark_blue">#00384b</color>
+    <color name="darker_blue">#002c3a</color>
+    <color name="black">#000</color>
+    <color name="orange">#bc5d00</color>
+    <color name="dark_orange">#5d3200</color>
+    <color name="dark_green">#515600</color>
+    <color name="dark_violet">#530056</color>
+    <color name="dark_red">#8b0401</color>
+
+</resources>

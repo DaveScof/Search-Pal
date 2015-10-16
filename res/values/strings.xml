@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Search Pal</string>
+    <string name="action_settings">Settings</string>
+    <string name="advanced_search">Advanced Search</string>
+    <string name="ad_must_contain">Terms Search MUST contain</string>
+    <string name="add_button">Add</string>
+    <string name="ad_not_contain">Terms Search MUST NOT Contain</string>
+    <string name="ad_website_to_search">Website to Search</string>
+    <string name="set_button">Set</string>
+    <string name="file_type_to_Search">File Type to Search</string>
+    <string name="show_results_indexed">When the search results were indexed</string>
+    <string name="save_Search">Save Search</string>
+    <string name="other_searches">Other Searches</string>
+    <string name="safe_search">Safe Search</string>
+    <string name="ad_test">AdTest</string>
+    <string name="standard_search_hint">Standard Google Search</string>
+    <string name="search_button">Search</string>
+    <string name="load_button">Load Search</string>
+    <string name="standard_search">Standard Search</string>
+    <string name="image_search">Image Search</string>
+    <string name="change_search_type_title">Change Search Type</string>
+    <string name="continue_string">Continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_search_type_message">This will clear your search. Do you want to continue?</string>
+    <string name="must_title">Terms Search Must contain</string>
+    <string name="not_title">Terms Search Must not contain</string>
+    <string name="website_title">Website to Search</string>
+    <string name="definition_search">Definition Search</string>
+    <string name="search_websites_related_to">Find sites that Google thinks are related to the URL you enter</string>
+    <string name="search_websites_that_link_to">Finds sites that link to the URL you enter</string>
+    <string name="search_in_title">Search Terms in the Titles of websites</string>
+    <string name="search_in_url">Search Terms in the url of websites</string>
+    <string name="search_in_anchor">Find sites that are linked to with the anchor text you Enter</string>
+    <string name="image">Image</string>
+    <string name="web">Web</string>
+    <string name="video">Video</string>
+    <string name="apps">Apps</string>
+    <string name="blogs">Blogs</string>
+    <string name="books">Books</string>
+    <string name="discussions">Discussions</string>
+    <string name="news">News</string>
+    <string name="patents">Patents</string>
+    <string name="places">Places</string>
+    <string name="recipes">Recipes</string>
+    <string name="shopping">Shopping</string>
+   
+</resources>

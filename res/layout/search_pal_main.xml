@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TableRow
+        android:id="@+id/tablerow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/safeSearchTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:text="@string/safe_search"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/safeSearchSwitch"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/adTestTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:text="@string/ad_test"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/adTestSwitch"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:checked="false" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rightsTableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/standardSearchEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/standard_search_hint"
+            android:paddingTop="20dp"
+            android:imeOptions="actionDone" >
+
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rightsTableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/searchButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:text="@string/search_button"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/loadButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:layout_weight="1"
+            android:text="@string/load_button"
+            android:textSize="17sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rightsTableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp" >
+
+        <RadioButton
+            android:id="@+id/standardSearchRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:checked="true"
+            android:text="@string/standard_search"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/advancedSearchRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="@string/advanced_search"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/imageSearchRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:checked="false"
+            android:text="@string/image_search"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/otherSearchesRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:checked="false"
+            android:text="@string/other_searches"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <ScrollView
+            android:isScrollContainer="false"
+            android:padding="5dp"
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:layout_span="4">
+
+            <TableLayout
+                android:id="@+id/ScrollViewTableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:stretchColumns="*">
+            </TableLayout>
+        </ScrollView>
+    </TableRow>
+
+</TableLayout>

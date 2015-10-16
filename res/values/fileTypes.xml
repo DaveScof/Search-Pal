@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="file_Types_array">
+        <item>Any</item>
+        <item>Adobe Flash (.swf)</item>
+        <item>Adobe Portable Document Format (.pdf)</item>
+        <item>Adobe PhotoScript (.ps) </item>
+        <item>Autodesk Design Web Format (.dwf)</item>
+        <item>Google Earth (.kml)</item>
+        <item>Google Earth (.kmz)</item>
+        <item>GPS eXchange Format (.gpx)</item>
+        <item>Hancom Hanword (.hwp)</item>
+        <item>HTML (.htm)</item>
+        <item>HTML (.html)</item>
+        <item>Microsoft Excel (.xlsx)</item>
+        <item>Microsoft Excel 97&#8211;2003 (.xls)</item>
+        <item>Microsoft Power Point  (.pptx)</item>
+        <item>Microsoft Power Point 97&#8211;2003 (.ppt)</item>
+        <item>Microsoft Word (.docx)</item>
+        <item>Microsoft Word 97&#8211;2003 (.doc)</item>
+        <item>OpenOffice presentation (.odp)</item>
+        <item>OpenOffice spreadsheet (.ods)</item>
+        <item>OpenOffice text (.odt)</item>
+        <item>Rich Text Format (.rtf)</item>
+        <item>Scalable Vector Graphics (.svg)</item>
+        <item>Text file (.txt)</item>
+        <item>Custom</item>
+    </string-array>
+
+</resources>
